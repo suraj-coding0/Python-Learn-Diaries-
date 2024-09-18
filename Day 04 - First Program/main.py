@@ -1,0 +1,5 @@
+print("hello world", 18)
+print(5)
+print("bye")
+print(35 * 6)
+print(35 / 3)
