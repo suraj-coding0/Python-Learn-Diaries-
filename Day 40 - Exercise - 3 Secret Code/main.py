@@ -18,7 +18,7 @@ def decode(Sec_Code):
         print(Sec_Code[::-1])
     elif (len(Sec_Code)>3):
         word = Sec_Code[3:-3]
-        letter = word[-1]+word[:4]
+        letter = word[-1]+word[:-1]
         print(f"Your code is:",letter)
 
 print("Hey! Do you want to encode or decode?")
