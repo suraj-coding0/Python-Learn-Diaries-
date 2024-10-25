@@ -1,6 +1,6 @@
 import os
 
-class ClearTheCulture:
+class ClearTheClutter:
     def create(self):
          if (not os.path.exists("Folder")):
             os.mkdir("Folder")
@@ -11,6 +11,6 @@ class ClearTheCulture:
         for i in range(0,5):
             os.rename(f"Folder/nfejnifuqiu {i+1}", f"Folder/{i+1}.png")
 
-obj = ClearTheCulture()
+obj = ClearTheClutter()
 obj.create()
 obj.rename()
